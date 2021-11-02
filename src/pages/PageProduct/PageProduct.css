@@ -1,0 +1,57 @@
+.PageProduct {
+  display: grid;
+
+  margin-top: 2rem;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.PageProductImages img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.PageProductContent h3 {
+  font-family: serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.PageProductContent span {
+  display: inline-block;
+  background: var(--green);
+  padding: 4px 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+
+  border-radius: 4px;
+
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.PageProductContent p {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+@media screen and (max-width: 540px) {
+  .PageProduct {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .PageProductImages {
+    grid-row: 2;
+  }
+
+  .PageProductContent {
+    grid-row: 1;
+  }
+
+}

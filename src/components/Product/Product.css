@@ -1,0 +1,21 @@
+.Product {
+  min-width: 220px;
+  width: 100%;
+}
+
+.Product img {
+  width: 100%;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Product img:hover {
+  box-shadow: 0 0 10px 1px var(--green);
+}
+
+.Product span {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

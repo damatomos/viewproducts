@@ -1,0 +1,13 @@
+.Button {
+  background: var(--gray);
+  color: var(--black);
+  box-shadow: none;
+  opacity: 0.8;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Button:hover {
+  box-shadow: none;
+  opacity: 1;
+}

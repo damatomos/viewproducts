@@ -1,0 +1,20 @@
+.ItemBox {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .ItemBox {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .ItemBox {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
