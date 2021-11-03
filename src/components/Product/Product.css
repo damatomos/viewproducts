@@ -11,11 +11,10 @@
 }
 
 .Product img:hover {
-  box-shadow: 0 0 10px 1px var(--green);
+  box-shadow: 0 0 10px 2px #bbb;
 }
 
 .Product span {
-  font-family: serif;
   font-weight: bold;
   font-size: 1.2rem;
 }

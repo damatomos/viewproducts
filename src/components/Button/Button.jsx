@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Button.css';
 
-export function Button({click, children, ...props}) {
+export function Button({click, children, refe, ...props}) {
   return (
-    <button className="Button"  onClick={click} {...props}>
+    <button className="Button"  ref={refe} onClick={click} {...props}>
       {children}
     </button>
   );

@@ -1,5 +1,5 @@
 .Button {
-  background: var(--gray);
+  background: #eee;
   color: var(--black);
   box-shadow: none;
   opacity: 0.8;
@@ -7,7 +7,8 @@
   font-weight: 600;
 }
 
+.active,
 .Button:hover {
   box-shadow: none;
-  opacity: 1;
+  background: #ddd;
 }
